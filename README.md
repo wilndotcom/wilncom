@@ -22,6 +22,7 @@ all about trying but this is phpnuxbill % ibnux developer
 - SMS validation for login
 - Whatsapp Notification to Consumer
 - Telegram Notification for Admin
+- **Real-time Online User Tracking Widgets** - Dashboard widgets for monitoring connected users across all connection types
 
 See [How it Works / Cara Kerja](https://github.com/hotspotbilling/phpnuxbill/wiki/How-It-Works---Cara-kerja)
 
@@ -62,6 +63,29 @@ The problem with windows is hard to set cronjob, better Linux
 ## Freeradius
 
 Support [Freeradius with Database](https://github.com/hotspotbilling/phpnuxbill/wiki/FreeRadius)
+
+## Online User Tracking Widgets
+
+This implementation adds real-time dashboard widgets to monitor connected users across all connection types:
+
+### Features
+- **Hotspot Online Users** - Shows count of currently connected hotspot users
+- **PPPoE Online Users** - Shows count of currently connected PPPoE users  
+- **Static IP Online Users** - Shows count of currently connected static IP users
+- **Total Online Users** - Shows combined count of all online users
+
+### Technical Implementation
+- Real-time user counting via Mikrotik device queries
+- Color-coded responsive UI design
+- Multi-user support (Admin, Agent, Sales, Report)
+- Graceful error handling for device connection failures
+- Performance optimized with device caching
+
+### Installation
+See [ONLINE_USER_WIDGETS_INSTALLATION.md](ONLINE_USER_WIDGETS_INSTALLATION.md) for complete setup instructions.
+
+### Community Contribution
+This feature was developed to enhance PHPNuxBill's monitoring capabilities and is open for community review and improvement. See the [pull request](https://github.com/wilndotcom/wilncom/pull/new/feature/online-user-widgets) for technical details and code review.
 
 ## Community Support
 

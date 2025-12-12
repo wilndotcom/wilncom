@@ -21,8 +21,8 @@ class online_pppoe_users
                 $customer = ORM::for_table('tbl_customers')->find_one($plan['customer_id']);
                 $p = ORM::for_table('tbl_plans')->find_one($plan['plan_id']);
 
-                if ($customer && $p && file_exists($WIDGET_PATH . '/../devices/' . $p['device'] . '.php')) {
-                    require_once $WIDGET_PATH . '/../devices/' . $p['device'] . '.php';
+                if ($customer && $p && file_exists(__DIR__ . '/../devices/' . $p['device'] . '.php')) {
+                    require_once __DIR__ . '/../devices/' . $p['device'] . '.php';
                     try {
                         if ((new $p['device'])->online_customer($customer, $plan['routers'])) {
                             $pppoe_online++;

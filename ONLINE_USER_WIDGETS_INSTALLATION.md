@@ -134,6 +134,30 @@ The widgets are positioned as follows:
 - Supports all user types (Admin, Agent, Sales, Report)
 - Mobile responsive design
 
-### 10. License
+### 10. Version Information
+
+- **Version**: 1.0
+- **Release Date**: December 2024
+- **Compatibility**: PHPNuxBill v2.0+
+- **Author**: wilndotcom (kennethndugi@gmail.com)
+- **License**: GNU GPL v2+
+
+### 11. Community Support
+
+This feature is available for community review and improvement:
+- **GitHub Repository**: https://github.com/wilndotcom/wilncom
+- **Pull Request**: https://github.com/wilndotcom/wilncom/pull/new/feature/online-user-widgets
+- **Discussion**: Join the PHPNuxBill community for feedback and suggestions
+
+### 12. Future Enhancements
+
+Potential improvements for future versions:
+- Real-time WebSocket updates for instant user count changes
+- Historical user activity graphs and analytics
+- Integration with monitoring systems like Grafana
+- Mobile app notifications for user count alerts
+- Advanced filtering and search capabilities
+
+### 13. License
 
 These widgets are released under the same GNU GPL v2+ license as PHPNuxBill.

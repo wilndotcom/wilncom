@@ -15,8 +15,10 @@ cache/
 session/
 
 # Database files
-*.sql
 *.sqlite
+# Ignore SQL files except in root directory
+/*/*.sql
+!/*.sql
 
 # Configuration files with sensitive data
 config.php

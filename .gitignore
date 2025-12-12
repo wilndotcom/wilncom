@@ -1,0 +1,52 @@
+# Dependencies
+/vendor/
+/composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Runtime data
+cache/
+session/
+
+# Database files
+*.sqlite
+# Ignore SQL files except in root directory
+/*/*.sql
+!/*.sql
+
+# Configuration files with sensitive data
+config.php
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build output
+/build/
+/dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Composer cache
+/composer/cache
+
+# Node modules
+node_modules/
+
+# Test files
+phpunit.xml

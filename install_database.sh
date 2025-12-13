@@ -33,31 +33,25 @@ echo ""
 # Installation options
 echo "Choose installation option:"
 echo "1) Complete installation with online user widgets (Recommended)"
-echo "2) Basic installation only"
-echo "3) Add widgets to existing installation"
+echo "2) Radius database installation"
 echo ""
-read -p "Enter your choice (1-3): " choice
+read -p "Enter your choice (1-2): " choice
 
 case $choice in
     1)
-        echo "Installing complete database with widgets..."
-        mysql -u "$username" -p"$password" "$database" < install/phpnuxbill_with_widgets.sql
+        echo "Installing complete database with online user widgets..."
+        mysql -u "$username" -p"$password" "$database" < install/phpnuxbill.sql
         echo "Complete installation finished!"
         ;;
     2)
-        echo "Installing basic database..."
-        if [ -f "install/phpnuxbill.sql" ]; then
-            mysql -u "$username" -p"$password" "$database" < install/phpnuxbill.sql
-            echo "Basic installation finished!"
+        echo "Installing Radius database..."
+        if [ -f "install/radius.sql" ]; then
+            mysql -u "$username" -p"$password" "$database" < install/radius.sql
+            echo "Radius installation finished!"
         else
-            echo "Error: install/phpnuxbill.sql not found."
+            echo "Error: install/radius.sql not found."
             echo "Please download the full installation package from releases."
         fi
-        ;;
-    3)
-        echo "Adding widgets to existing installation..."
-        mysql -u "$username" -p"$password" "$database" < install/add_online_user_widgets.sql
-        echo "Widgets installation finished!"
         ;;
     *)
         echo "Invalid choice. Exiting."

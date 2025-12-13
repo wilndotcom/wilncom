@@ -63,19 +63,14 @@ The problem with windows is hard to set cronjob, better Linux
 
 ### Database Setup (Required)
 
-**Option 1: Complete Installation with Widgets**
-```bash
-mysql -u your_username -p your_database_name < install/phpnuxbill_with_widgets.sql
-```
-
-**Option 2: Basic Installation**
+**Option 1: Complete Installation with Widgets (Recommended)**
 ```bash
 mysql -u your_username -p your_database_name < install/phpnuxbill.sql
 ```
 
-**Option 3: Add Widgets to Existing Installation**
+**Option 2: Radius Database Installation**
 ```bash
-mysql -u your_username -p your_database_name < install/add_online_user_widgets.sql
+mysql -u your_username -p your_database_name < install/radius.sql
 ```
 
 ### Automated Installation Scripts
@@ -83,9 +78,10 @@ mysql -u your_username -p your_database_name < install/add_online_user_widgets.s
 - **Windows**: Run `install_database.bat`
 
 ### Important Notes
-- All SQL files are now located in the `install/` directory
-- The `phpnuxbill_with_widgets.sql` includes both the base database and online user widgets
+- Only 2 SQL files in install directory: `phpnuxbill.sql` and `radius.sql`
+- The `phpnuxbill.sql` now includes the base database AND online user widgets
 - Use the automated scripts for easier database setup
+- Online user widgets are automatically included in the main installation
 
 ## Freeradius
 

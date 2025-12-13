@@ -35,33 +35,26 @@ echo.
 REM Installation options
 echo Choose installation option:
 echo 1) Complete installation with online user widgets ^(Recommended^)
-echo 2) Basic installation only
-echo 3) Add widgets to existing installation
+echo 2) Radius database installation
 echo.
-set /p choice="Enter your choice (1-3): "
+set /p choice="Enter your choice (1-2): "
 
 if "%choice%"=="1" (
-    echo Installing complete database with widgets...
-    mysql -u "%username%" -p"%password%" "%database%" < install\phpnuxbill_with_widgets.sql
+    echo Installing complete database with online user widgets...
+    mysql -u "%username%" -p"%password%" "%database%" < install\phpnuxbill.sql
     if %errorlevel% equ 0 (
         echo Complete installation finished!
     )
 ) else if "%choice%"=="2" (
-    echo Installing basic database...
-    if exist "install\phpnuxbill.sql" (
-        mysql -u "%username%" -p"%password%" "%database%" < install\phpnuxbill.sql
+    echo Installing Radius database...
+    if exist "install\radius.sql" (
+        mysql -u "%username%" -p"%password%" "%database%" < install\radius.sql
         if %errorlevel% equ 0 (
-            echo Basic installation finished!
+            echo Radius installation finished!
         )
     ) else (
-        echo Error: install\phpnuxbill.sql not found.
+        echo Error: install\radius.sql not found.
         echo Please download the full installation package from releases.
-    )
-) else if "%choice%"=="3" (
-    echo Adding widgets to existing installation...
-    mysql -u "%username%" -p"%password%" "%database%" < install\add_online_user_widgets.sql
-    if %errorlevel% equ 0 (
-        echo Widgets installation finished!
     )
 ) else (
     echo Invalid choice. Exiting.

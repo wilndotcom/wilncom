@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:36
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:37
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\graph_monthly_registered_customers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4ae8283b21_00250432',
+  'unifunc' => 'content_693d9b01daf699_48883639',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6e56956efbec51f6da95126f36db82b760dcb047' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\graph_monthly_registered_customers.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4ae8283b21_00250432 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b01daf699_48883639 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="box box-solid ">
     <div class="box-header">
         <i class="fa fa-th"></i>

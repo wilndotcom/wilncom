@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:39
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:37
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\graph_customers_insight.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4aeb5d3622_27567738',
+  'unifunc' => 'content_693d9b0185d021_87548367',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1cefa2eaf189375a3a14d7581ade5a0bb57b747a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\graph_customers_insight.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4aeb5d3622_27567738 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b0185d021_87548367 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="panel panel-info panel-hovered mb20 activities">
     <div class="panel-heading"><?php echo Lang::T('All Users Insights');?>
 </div>

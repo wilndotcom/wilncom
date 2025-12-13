@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:37
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:38
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\graph_monthly_sales.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4ae90fd042_31537767',
+  'unifunc' => 'content_693d9b02021a85_26931796',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c544030bc8019cc1718e3d4f8320d9ff0a576822' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\graph_monthly_sales.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4ae90fd042_31537767 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b02021a85_26931796 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="box box-solid ">
     <div class="box-header">
         <i class="fa fa-inbox"></i>

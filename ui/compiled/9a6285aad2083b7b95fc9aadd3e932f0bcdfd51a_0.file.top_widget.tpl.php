@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:35
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:36
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\top_widget.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4ae79e0902_26670911',
+  'unifunc' => 'content_693d9b0031fb99_91472692',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9a6285aad2083b7b95fc9aadd3e932f0bcdfd51a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\top_widget.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4ae79e0902_26670911 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b0031fb99_91472692 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="row">
     <?php if (in_array($_smarty_tpl->tpl_vars['_admin']->value['user_type'],array('SuperAdmin','Admin','Report'))) {?>
         <div class="col-lg-3 col-xs-6">

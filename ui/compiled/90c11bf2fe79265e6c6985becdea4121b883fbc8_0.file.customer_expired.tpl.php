@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:38
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:38
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\customer_expired.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4aea5ad788_73115182',
+  'unifunc' => 'content_693d9b0263f6b7_22231536',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '90c11bf2fe79265e6c6985becdea4121b883fbc8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\customer_expired.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:pagination.tpl' => 1,
   ),
 ),false)) {
-function content_693c4aea5ad788_73115182 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b0263f6b7_22231536 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="panel panel-warning mb20 panel-hovered project-stats table-responsive">
     <div class="panel-heading"><?php echo Lang::T('Customers Expired, Today');?>
 </div>

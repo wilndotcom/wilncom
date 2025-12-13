@@ -65,7 +65,7 @@ The problem with windows is hard to set cronjob, better Linux
 
 **Option 1: Complete Installation with Widgets**
 ```bash
-mysql -u your_username -p your_database_name < phpnuxbill_with_widgets.sql
+mysql -u your_username -p your_database_name < install/phpnuxbill_with_widgets.sql
 ```
 
 **Option 2: Basic Installation**
@@ -75,13 +75,17 @@ mysql -u your_username -p your_database_name < install/phpnuxbill.sql
 
 **Option 3: Add Widgets to Existing Installation**
 ```bash
-mysql -u your_username -p your_database_name < add_online_user_widgets.sql
+mysql -u your_username -p your_database_name < install/add_online_user_widgets.sql
 ```
 
+### Automated Installation Scripts
+- **Linux/Mac**: Run `./install_database.sh`
+- **Windows**: Run `install_database.bat`
+
 ### Important Notes
-- SQL files must be imported manually after cloning the repository
+- All SQL files are now located in the `install/` directory
 - The `phpnuxbill_with_widgets.sql` includes both the base database and online user widgets
-- Files in `install/` directory are gitignored and must be downloaded from releases
+- Use the automated scripts for easier database setup
 
 ## Freeradius
 

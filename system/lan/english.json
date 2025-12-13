@@ -456,5 +456,13 @@
     "Hotspot_Package": "Hotspot Package",
     "PPPOE_Package": "PPPOE Package",
     "VPN_Package": "VPN Package",
-    "ODPs": "ODPs"
+    "ODPs": "ODPs",
+    "Hotspot_Online_Users": "Hotspot Online Users",
+    "View_Hotspot_Plans": "View Hotspot Plans",
+    "Total_Online_Users": "Total Online Users",
+    "View_All_Plans": "View All Plans",
+    "Static_IP_Online_Users": "Static IP Online Users",
+    "View_Static_Plans": "View Static Plans",
+    "PPPoE_Online_Users": "PPPoE Online Users",
+    "View_PPPoE_Plans": "View PPPoE Plans"
 }

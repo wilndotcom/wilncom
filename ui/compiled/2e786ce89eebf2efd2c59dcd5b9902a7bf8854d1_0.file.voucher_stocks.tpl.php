@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:37
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:39
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\voucher_stocks.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4ae9bd2d96_20241621',
+  'unifunc' => 'content_693d9b0310d5d0_43381554',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2e786ce89eebf2efd2c59dcd5b9902a7bf8854d1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\voucher_stocks.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4ae9bd2d96_20241621 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b0310d5d0_43381554 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['_c']->value['disable_voucher'] != 'yes' && $_smarty_tpl->tpl_vars['stocks']->value['unused'] > 0 || $_smarty_tpl->tpl_vars['stocks']->value['used'] > 0) {?>
     <div class="panel panel-primary mb20 panel-hovered project-stats table-responsive">
         <div class="panel-heading">Vouchers Stock</div>

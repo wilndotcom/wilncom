@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:36
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:37
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\default_info_row.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4ae8b6fdb4_69394980',
+  'unifunc' => 'content_693d9b01a3a567_17624698',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '24200c9bd106df8c726ff327c5ab7aa743b4d6ee' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\default_info_row.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4ae8b6fdb4_69394980 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b01a3a567_17624698 (Smarty_Internal_Template $_smarty_tpl) {
 ?><ol class="breadcrumb">
     <li><?php echo Lang::dateFormat($_smarty_tpl->tpl_vars['start_date']->value);?>
 </li>

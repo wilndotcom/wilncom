@@ -42,7 +42,7 @@ set /p choice="Enter your choice (1-3): "
 
 if "%choice%"=="1" (
     echo Installing complete database with widgets...
-    mysql -u "%username%" -p"%password%" "%database%" < phpnuxbill_with_widgets.sql
+    mysql -u "%username%" -p"%password%" "%database%" < install\phpnuxbill_with_widgets.sql
     if %errorlevel% equ 0 (
         echo Complete installation finished!
     )
@@ -59,7 +59,7 @@ if "%choice%"=="1" (
     )
 ) else if "%choice%"=="3" (
     echo Adding widgets to existing installation...
-    mysql -u "%username%" -p"%password%" "%database%" < add_online_user_widgets.sql
+    mysql -u "%username%" -p"%password%" "%database%" < install\add_online_user_widgets.sql
     if %errorlevel% equ 0 (
         echo Widgets installation finished!
     )

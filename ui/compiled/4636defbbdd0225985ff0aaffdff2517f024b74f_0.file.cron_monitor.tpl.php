@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:36
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:37
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\cron_monitor.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4ae87116f2_44974843',
+  'unifunc' => 'content_693d9b01442dd6_21801416',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4636defbbdd0225985ff0aaffdff2517f024b74f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\cron_monitor.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4ae87116f2_44974843 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b01442dd6_21801416 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['run_date']->value) {?>
     <?php $_smarty_tpl->_assignInScope('current_time', time());?>
     <?php $_smarty_tpl->_assignInScope('run_time', strtotime($_smarty_tpl->tpl_vars['run_date']->value));?>

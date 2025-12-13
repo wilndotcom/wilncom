@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-13 00:03:39
+/* Smarty version 4.5.3, created on 2025-12-13 19:57:38
   from 'C:\xampp\htdocs\wilncom\ui\ui\widget\activity_log.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_693c4aeb960d37_36023952',
+  'unifunc' => 'content_693d9b022ca982_40703290',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '211f9da67d3a53ccbd6f52fbae3c9982b5da2460' => 
     array (
       0 => 'C:\\xampp\\htdocs\\wilncom\\ui\\ui\\widget\\activity_log.tpl',
-      1 => 1763396386,
+      1 => 1765575523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_693c4aeb960d37_36023952 (Smarty_Internal_Template $_smarty_tpl) {
+function content_693d9b022ca982_40703290 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="panel panel-info panel-hovered mb20 activities">
     <div class="panel-heading"><a href="<?php echo Text::url('logs');?>
 "><?php echo Lang::T('Activity Log');?>

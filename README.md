@@ -58,7 +58,30 @@ The problem with windows is hard to set cronjob, better Linux
 
 ## Installation
 
+### Quick Installation
 [Installation instructions](https://github.com/hotspotbilling/phpnuxbill/wiki)
+
+### Database Setup (Required)
+
+**Option 1: Complete Installation with Widgets**
+```bash
+mysql -u your_username -p your_database_name < phpnuxbill_with_widgets.sql
+```
+
+**Option 2: Basic Installation**
+```bash
+mysql -u your_username -p your_database_name < install/phpnuxbill.sql
+```
+
+**Option 3: Add Widgets to Existing Installation**
+```bash
+mysql -u your_username -p your_database_name < add_online_user_widgets.sql
+```
+
+### Important Notes
+- SQL files must be imported manually after cloning the repository
+- The `phpnuxbill_with_widgets.sql` includes both the base database and online user widgets
+- Files in `install/` directory are gitignored and must be downloaded from releases
 
 ## Freeradius
 

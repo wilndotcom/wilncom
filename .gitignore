@@ -16,9 +16,10 @@ session/
 
 # Database files
 *.sqlite
-# Ignore SQL files except in root directory
+# Ignore SQL files except in root directory and install directory
 /*/*.sql
 !/*.sql
+!/install/*.sql
 
 # Configuration files with sensitive data
 config.php
